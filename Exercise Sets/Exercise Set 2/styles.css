@@ -13,12 +13,16 @@ header{
   text-align: center;
 }
 
+.whole-container{
+  display: flex;
+  flex-direction: column;
+}
 
 .flex-container {
   display: flex;
   flex-direction: column;
   background-color: rgba(209, 112, 112, 0.881);
-  margin: 45px auto;
+  margin: 20px auto;
   padding: 30px;
   border-radius: 8px;
   width: 600px;
