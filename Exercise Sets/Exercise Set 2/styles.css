@@ -1,0 +1,46 @@
+
+body {
+  font-family: "Text Me One", Arial, sans-serif;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #1b1919;
+}
+
+header{
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(209, 112, 112, 0.881);
+  margin: 45px auto;
+  padding: 30px;
+  border-radius: 8px;
+  width: 600px;
+}
+
+.div-title {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.div-content p {
+  margin: 5px 5px 8px 15px;
+  font-size: 20px;
+}
+
+a {
+  color: papayawhip;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
