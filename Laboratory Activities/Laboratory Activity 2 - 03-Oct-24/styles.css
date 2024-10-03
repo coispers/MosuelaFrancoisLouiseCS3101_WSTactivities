@@ -3,7 +3,7 @@
 }
 body{
   font-family: "Bad Script",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background: radial-gradient(#fbd3e9, #e2c7d6);
+  background: radial-gradient(#eb7eba, #eac2d8, #f4e7ee);
 }
 
 header{
@@ -17,7 +17,7 @@ header{
   flex-direction: column;
   align-items: center;
   max-width: 150vh;
-  border: 10px solid palevioletred;
+  border: 10px solid #e5479e;
   border-radius:12px ;
   margin: auto;
 }
