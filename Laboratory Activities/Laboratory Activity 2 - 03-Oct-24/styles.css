@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+}
+body{
+  font-family: "Bad Script",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: radial-gradient(#fbd3e9, #e2c7d6);
+}
+
+header{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+  margin-top: 20px ;
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150vh;
+  border: 10px solid palevioletred;
+  border-radius:12px ;
+  margin: auto;
+}
+.flex-image{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+.daily-reminder{
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  border: 3px solid lightcoral;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color:#f7dbde;
+  margin-bottom: 0px;
+  letter-spacing: 3px;
+  padding: 0px 8px 0px 8px;
+}
+.vision-image{
+  border-radius: 10px ;
+  width: 185px;
+  height: 160px;
+  object-fit: cover;
+  margin: 15px;
+}
+.goals{
+  border: 2px solid lightcoral;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #f7dbde;
+  max-width: 240px;
+  max-height: 180px;
+  padding: 8px;
+}
+.life-goal{
+  text-align: center;
+}
+hr{
+  border-top: 2px solid lightcoral;
+}
